@@ -40,4 +40,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: ${{ lowercase(github.repository) }}:latest
+          tags: ${{ github.repository.lowercase }}:latest
