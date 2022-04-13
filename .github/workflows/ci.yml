@@ -40,4 +40,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: $GITHUB_REPOSITORY:latest
+          tags: ${{ env.github_repository }}:latest
